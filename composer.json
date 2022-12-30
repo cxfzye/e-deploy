@@ -12,8 +12,8 @@
         {
             "name": "Y",
             "email": "cxfzye@gmail.com",
-            "homepage": "",
-            "role": ""
+            "homepage": "http://github.com/cxfzye/e-deploy",
+            "role": "NONE"
         }
     ],
     "funding": [
@@ -29,11 +29,6 @@
         "slim/slim-skeleton": "4.5.*",
         "vlucas/phpdotenv": "v5.5.0",
         "symfony/console": "v5.4.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Predis\\": "src/"
-        }
     },
     "autoload": {
       "psr-4": {
