@@ -1,0 +1,45 @@
+{
+    "name": "cxfzye/e-deploy",
+    "type": "project",
+    "description": ".",
+    "keywords": ["slim", "phpvote", "console"],
+    "homepage": "http://github.com/cxfzye/e-deploy",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/cxfzye/e-deploy/issues"
+    },
+    "authors": [
+        {
+            "name": "Y",
+            "email": "cxfzye@gmail.com",
+            "homepage": "",
+            "role": ""
+        }
+    ],
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/tillkruss"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "require-dev": {
+        "slim/slim-skeleton": "4.5.*",
+        "vlucas/phpdotenv": "v5.5.0",
+        "symfony/console": "v5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Predis\\": "src/"
+        }
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/",
+        "Service\\": "services/",
+        "Console\\": "console/"
+      }
+    }
+}
