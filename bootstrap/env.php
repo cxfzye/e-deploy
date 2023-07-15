@@ -19,11 +19,7 @@ if (!function_exists('env')) {
      */
     function env($key, $default = null)
     {
-        $value =  $_ENV[$key];
-
-        if ($value === false) {
-            return $default;
-        }
+        $value =  isset($_ENV[$key]) ? $_ENV[$key] : $default;
 
         switch (strtolower($value)) {
             case 'true':

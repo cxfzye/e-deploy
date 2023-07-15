@@ -1,5 +1,4 @@
 <?php
-<?php
 use Symfony\Component\Console\Application;
 use App\Base\Base;
 
